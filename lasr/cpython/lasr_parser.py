@@ -1,7 +1,4 @@
-from typing import Optional
-
-
-from pydantic.annotated_types import Any, Dict
+from typing import Optional, Any, Dict
 
 
 from lpython import i32

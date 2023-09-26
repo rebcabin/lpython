@@ -1,10 +1,8 @@
-from typing import Literal
+from typing import Literal, Any, Union
 
 
 import pydantic
 from pydantic import BaseModel
-from pydantic.annotated_types import Any
-from pydantic.class_validators import Union
 
 
 class Dimensions_spec(BaseModel):
